@@ -68,5 +68,8 @@ pipeline{
         always{
             echo 'Registrar Build'
         }
+        failure{
+            echo 'El pipeline ha fallado.'
+        }
     }
 }
